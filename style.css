@@ -137,16 +137,3 @@ ul.main-menu li a.active {
   display:block;
 }
 
-
-.logo{
-background-size: contain;
-background-position: center;
-    width:10%;
-    height:10%;
-    clear:both;
-}
-
-.logo img {
-    margin-left: 25%;
-    margin-right: 25%;
-}
