@@ -163,3 +163,7 @@ img {
   vertical-align:middle;
   gap: 100px;
 }
+
+profile {
+  horizontal-align:middle;
+}
