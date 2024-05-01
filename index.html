@@ -24,10 +24,20 @@
     <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
 
 	    <style>
-      div {
+      	div {
         text-align: justify;
         text-justify: inter-character;
       }
+	 .container {
+	}
+
+	.imageclass {
+	 float:right;
+	}
+
+	.textclass {
+	 float:left;
+	}
 
     </style>
   </head>
@@ -35,7 +45,11 @@
   <body>
 
 	     <header id="header">
-	<h1><img width=15% src="logo.png">&nbsp;&nbsp;&nbsp;&nbsp;David Benacom, Ph.D.</h1>
+		     <div class="container">
+	<p class="imageclass"><img width=15% src="logo.png"></p>
+	<h1 class="textclass">David Benacom, Ph.D.</h1>
+	</div>
+	<!-- <h1><img width=15% src="logo.png">&nbsp;&nbsp;&nbsp;&nbsp;David Benacom, Ph.D.</h1>-->
 
 
       <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
