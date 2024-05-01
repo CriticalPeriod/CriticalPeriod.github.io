@@ -139,7 +139,6 @@ ul.main-menu li a.active {
 
 .container {
  display: grid;
- align-items: center; 
  grid-template-columns: 1fr 1fr;
  column-gap: 5px;
 }
