@@ -101,7 +101,7 @@ body {
   margin:25px auto;
 }
 header, #content, footer { 
-  background: #E5E5E6; 
+  background: #BFE5E5E6; 
   padding:25px;
   color:#171616; 
 }
@@ -141,8 +141,8 @@ ul.main-menu li a.active {
 .logo{
 background-size: contain;
 background-position: center;
-    width:25%;
-    height:25%;
+    width:10%;
+    height:10%;
     clear:both;
 }
 
