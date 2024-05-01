@@ -151,7 +151,7 @@ logo {
   align-self: center;
 }
 
-.text {
+text {
   font-size: 70px;
   width: 100%;
   grid-area: b;
