@@ -8,7 +8,7 @@ html {
 }
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
+  line-height: 1.1;
   font-weight: 400;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #171616;
@@ -20,7 +20,7 @@ body {
 a {
   font-weight: normal;
   text-decoration: none; 
-  color:#f5f0f0;
+  color:#8c12c9;
 }
 a:focus {
   outline: thin dotted;
