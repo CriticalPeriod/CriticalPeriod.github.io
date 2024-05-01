@@ -139,9 +139,7 @@ ul.main-menu li a.active {
 
 .container {
  display: grid;
- grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-areas:
-    "a b b b "
+ grid-template-columns: 1fr 1fr ;
  column-gap: 5px;
 }
 
@@ -154,6 +152,5 @@ logo {
 .text {
   font-size: 70px;
   width: 100%;
-  justify-self: end;
   grid-area: b;
 }
