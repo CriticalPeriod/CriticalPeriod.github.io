@@ -108,8 +108,8 @@ header, #content, footer {
 
 /* Menu Links */
 ul.main-menu {
-  margin: 10px;
-  padding: 10px;
+  margin: 1px;
+  padding: 1px;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
@@ -141,6 +141,6 @@ img {
   vertical-align:middle;
 }
 
-profile {
+#profile {
   horizontal-align:middle;
 }
