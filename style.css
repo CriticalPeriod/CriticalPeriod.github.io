@@ -42,7 +42,7 @@ h6 {
   line-height: 1;
   text-rendering: optimizeLegibility; /*  voodoo to enable ligatures and kerning | https://developer.mozilla.org/en-US/docs/CSS/text-rendering */
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-weight: 300;
 }
 h1 { font-size: 4.2rem; line-height: 1.25; letter-spacing: -.1rem; }
@@ -102,7 +102,7 @@ body {
 }
 header, #content, footer { 
   background: rgba(255, 255, 255, 0.9); 
-  padding:25px;
+  padding:10px;
   color:#171616; 
 }
 
@@ -148,12 +148,12 @@ ul.main-menu li a.active {
 logo {
   max-width: 100%;
   max-height:100%;
-  grid-area: a;
+  grid-area: b;
 }
 
 .text {
   font-size: 70px;
   width: 100%;
   justify-self: start;
-  grid-area: b;
+  grid-area: a;
 }
