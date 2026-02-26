@@ -139,6 +139,8 @@ ul.main-menu li a.active {
 
 img {
   vertical-align:middle;
+  max-width:100%;
+  height:auto;
 }
 
 #profile {

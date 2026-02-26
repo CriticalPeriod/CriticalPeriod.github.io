@@ -1,3 +1,5 @@
+---
+---
 <!doctype html>
 <html>
   <head>
@@ -41,7 +43,7 @@
       <nav>
         <ul class="main-menu">
           <li><a href="#home">home</a></li>
-          <!-- <li><a href="#research">research</a></li> -->
+          <li><a href="#research">research</a></li>
           <li><a href="#CV">CV</a></li>
           <li><a href="#contact">contact</a></li>
         </ul>
@@ -70,40 +72,18 @@
           <div id="research" class="content-region hide">
             <h2>Research</h2>
             <div class="research-grid">
-
-              <a href="research/critical-periods-pv-transcriptomics.html" class="research-card">
+              {% for article in site.research %}
+              <a href="{{ article.url }}" class="research-card">
                 <div class="research-card-img">
-                  <img src="research/img/placeholder-1.svg" alt="Critical period PV transcriptomics">
+                  <img src="{{ article.thumbnail }}" alt="{{ article.title }}">
                 </div>
                 <div class="research-card-body">
-                  <h3>PV interneuron transcriptomics across plasticity paradigms</h3>
-                  <p class="research-card-meta">2024 &middot; Bhatt, Bhatt, Bhatt</p>
-                  <p>Parvalbumin cells miss a common transcriptomic pathway across enhanced-plasticity paradigms, suggesting multiple genetic routes converge on similar functional plasticity.</p>
+                  <h3>{{ article.title }}</h3>
+                  <p class="research-card-meta">{{ article.date | date: "%Y" }} &middot; {{ article.journal }}</p>
+                  <p>{{ article.summary }}</p>
                 </div>
               </a>
-
-              <a href="research/plasticity-parkinsons-model.html" class="research-card">
-                <div class="research-card-img">
-                  <img src="research/img/placeholder-2.svg" alt="Plasticity in Parkinson's model">
-                </div>
-                <div class="research-card-body">
-                  <h3>Plasticity modulation in a Parkinson's disease model</h3>
-                  <p class="research-card-meta">2024 &middot; Journal Placeholder</p>
-                  <p>Testing critical-period reopening as a therapeutic strategy for circuit rewiring in a neurodegenerative disease model, with encouraging preclinical results.</p>
-                </div>
-              </a>
-
-              <a href="research/circadian-blood-proteomics.html" class="research-card">
-                <div class="research-card-img">
-                  <img src="research/img/placeholder-3.svg" alt="Circadian blood proteomics">
-                </div>
-                <div class="research-card-body">
-                  <h3>Inferring organ circadian rhythms from blood proteomics</h3>
-                  <p class="research-card-meta">2025 &middot; Stanford / Mignot Lab</p>
-                  <p>Applying machine learning to blood protein data to infer organ-specific circadian signals, bridging chronobiology and clinical diagnostics.</p>
-                </div>
-              </a>
-
+              {% endfor %}
             </div>
           </div>
 

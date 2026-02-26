@@ -1,0 +1,19 @@
+title: David Benacom
+url: "https://criticalperiod.github.io"
+
+collections:
+  research:
+    output: true
+    permalink: /research/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: "research"
+    values:
+      layout: "article"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
